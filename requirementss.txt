@@ -1,0 +1,13 @@
+name: juno.tf
+channels:
+- conda-forge
+dependencies:
+  - python==3.7.3
+  - numpy
+  - pip
+  - pip:
+    - tensorflow==2.7.0
+    - pandas
+    - matplotlib
+    - seaborn
+    - importlib
